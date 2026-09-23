@@ -1,0 +1,24 @@
+# Backend venv and caches
+backend/venv/
+backend/__pycache__/
+backend/.env
+backend/chroma_store/
+backend/cloned_repos/
+backend/*.pyc
+backend/db/
+
+# Frontend node_modules and builds
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+frontend/.env.development
+frontend/.env.staging
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Automation helper
+daily_push.ps1
